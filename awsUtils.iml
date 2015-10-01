@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="awsUtils" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="com.dnocode.utils" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/build/classes/main" />
+    <output-test url="file://$MODULE_DIR$/build/classes/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-support:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-simpledb:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-simpleworkflow:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-storagegateway:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-route53:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-s3:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-importexport:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-sts:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-sqs:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-rds:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-redshift:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-elasticbeanstalk:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-glacier:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-iam:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-datapipeline:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-elasticloadbalancing:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-emr:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-elasticache:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-elastictranscoder:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-ec2:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-dynamodb:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-sns:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-cloudtrail:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-cloudwatch:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-logs:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-cognitoidentity:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-cognitosync:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-directconnect:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-cloudformation:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-cloudfront:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-kinesis:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-opsworks:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-ses:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-autoscaling:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-cloudsearch:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-cloudwatchmetrics:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-swf-libraries:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-codedeploy:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-kms:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-config:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-lambda:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-ecs:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-cloudhsm:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-ssm:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-workspaces:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-machinelearning:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-directory:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-efs:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.amazonaws:aws-java-sdk-core:1.9.39" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-logging:commons-logging:1.1.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.httpcomponents:httpclient:4.3.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.3.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.httpcomponents:httpcore:4.3.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-codec:commons-codec:1.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.3.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: joda-time:joda-time:2.8.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk/1.9.39/f9f49ff44f580f2a91f79ee01f9dbdff3a00b268/aws-java-sdk-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-support/1.9.39/268687504ab2ef3679b4e3396607cde71f19f5c2/aws-java-sdk-support-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-support/1.9.39/5e939466350043ae118dda511551f417824ab437/aws-java-sdk-support-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-simpledb/1.9.39/13483788a8b4f8ee2135cc09a3375d0f801578cf/aws-java-sdk-simpledb-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-simpledb/1.9.39/8a3f59176e44250d54a59620e9d38c4b869d99a9/aws-java-sdk-simpledb-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-simpleworkflow/1.9.39/10e2454b940a4c89b01965e472c6b80eb8a79ab5/aws-java-sdk-simpleworkflow-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-simpleworkflow/1.9.39/1312dc900f8efe4ebe88994c965b15d493cf6623/aws-java-sdk-simpleworkflow-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-storagegateway/1.9.39/8153555765bc7e8391e3f4965678aff9e9574a02/aws-java-sdk-storagegateway-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-storagegateway/1.9.39/3de27715b830901d2848ba3eab74cc832329f718/aws-java-sdk-storagegateway-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-route53/1.9.39/a398a1259ce46a4a907dfc9b16cb6e8791cfb458/aws-java-sdk-route53-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-route53/1.9.39/d50c12bc46253dc81ce6e7f09f74bd886a822de8/aws-java-sdk-route53-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-s3/1.9.39/87167ee1cc331efbd24998652ee862a4c650a369/aws-java-sdk-s3-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-s3/1.9.39/f2ed30bad39ba5f247cd72b516f1a9785bb90822/aws-java-sdk-s3-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-importexport/1.9.39/825aa66bbd21fbb93e312ef41cb377f50cfc78b6/aws-java-sdk-importexport-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-importexport/1.9.39/d186c7b843974a08aa51a7dc73d273309b4a866b/aws-java-sdk-importexport-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sts/1.9.39/77aff32668b926178dcfd8ac8710b338fc61ce63/aws-java-sdk-sts-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sts/1.9.39/d13c34c945c08f39f2c105cfecf610539f98bfd4/aws-java-sdk-sts-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sqs/1.9.39/ee5da9d90f7bda9fec5e5da7c3ec96b64d3df923/aws-java-sdk-sqs-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sqs/1.9.39/5809e2c90125713cfea8b43dcd59f6ad297bde31/aws-java-sdk-sqs-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-rds/1.9.39/3968c7e82735a9828ee84e3f715341c2859592b0/aws-java-sdk-rds-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-rds/1.9.39/47f677dfe73c9e84b3d5589a5eb0eef75838f17b/aws-java-sdk-rds-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-redshift/1.9.39/6a00dfd4c78ae867416ab5d5939ce939476ff0f2/aws-java-sdk-redshift-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-redshift/1.9.39/b863125314400e482e588f2a4765196fb4ebebcb/aws-java-sdk-redshift-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elasticbeanstalk/1.9.39/83755ffefec786072e2b718898fb3ac410d29e34/aws-java-sdk-elasticbeanstalk-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elasticbeanstalk/1.9.39/72fbde046b0a950ae2d5a812f75198b2beef7fdf/aws-java-sdk-elasticbeanstalk-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-glacier/1.9.39/5a6a2f2a754ee329afe7d2d3c60f7b48999a18bf/aws-java-sdk-glacier-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-glacier/1.9.39/bfcb592627b5c6fd36ba0e4e3427f2b1a7726331/aws-java-sdk-glacier-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-iam/1.9.39/3de9be788a094fb27743e88378e03eeec39b72d5/aws-java-sdk-iam-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-iam/1.9.39/88e62d7305c9eb35a4767536442c23bfb380ff5d/aws-java-sdk-iam-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-datapipeline/1.9.39/6f24150d33ea31adafcc756e21fadc193a787950/aws-java-sdk-datapipeline-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-datapipeline/1.9.39/5f87fa0d88348784c3c67682e8b39e69eb1860ab/aws-java-sdk-datapipeline-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elasticloadbalancing/1.9.39/5eb2a08fd31adce3c88f24a6314ed57162a28633/aws-java-sdk-elasticloadbalancing-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elasticloadbalancing/1.9.39/faa63bc3fcd8717b07da9428b263786226751534/aws-java-sdk-elasticloadbalancing-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-emr/1.9.39/8c26ce9b9e316ab02a58eb4c29919442e8618c22/aws-java-sdk-emr-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-emr/1.9.39/741dd4131322020e77ee98a234b4b9620a6261e4/aws-java-sdk-emr-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elasticache/1.9.39/7305b1ebd8f677c90f4302e0b9243be262177081/aws-java-sdk-elasticache-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elasticache/1.9.39/9ceb4c78b255dbfa962f3901f5d8d196ff758b82/aws-java-sdk-elasticache-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elastictranscoder/1.9.39/da01f780033012f32a6db9efea39df30b898272a/aws-java-sdk-elastictranscoder-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elastictranscoder/1.9.39/9045ee27805aeca0a407ddc3950aaa4e962b2203/aws-java-sdk-elastictranscoder-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ec2/1.9.39/6ca3d52564f11ba082a42327e3824e3a8caaca1a/aws-java-sdk-ec2-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ec2/1.9.39/6cd99ebb2fc4b43a757031465d023ccebf2133c9/aws-java-sdk-ec2-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-dynamodb/1.9.39/4bb4e8d99b85795b8a83025bbb6b7bf0c92448d2/aws-java-sdk-dynamodb-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-dynamodb/1.9.39/2f5b1ae6db6cb359a1e15f3a41e8ec2b93b09450/aws-java-sdk-dynamodb-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sns/1.9.39/710baa510f6b4b1acb870b96b3ddd12355d8810/aws-java-sdk-sns-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sns/1.9.39/dc3ae1d91ef99be1f129d7fed50047bca53e119e/aws-java-sdk-sns-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudtrail/1.9.39/742a8383d8e17d8356ab048ad33820abded0fffa/aws-java-sdk-cloudtrail-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudtrail/1.9.39/a156a343dc29a25956b2cd190f4d80c89834872b/aws-java-sdk-cloudtrail-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudwatch/1.9.39/55ac15d0dcddd1fec9b9cdca7a2a8c5b544e024a/aws-java-sdk-cloudwatch-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudwatch/1.9.39/a366c4fac2776af6b7f66d9055c90ea3b386f5f/aws-java-sdk-cloudwatch-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-logs/1.9.39/1c00ab4fb0b4853d34a97c15f496d11f307dbf55/aws-java-sdk-logs-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-logs/1.9.39/ef5ec20ca1d87a41f705b189716b77260d473ec7/aws-java-sdk-logs-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cognitoidentity/1.9.39/79c99ded5a29b5d32e77bac911700a0482f7bb32/aws-java-sdk-cognitoidentity-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cognitoidentity/1.9.39/9c8c447e0d36408a7d5e192a26baa68393bf5248/aws-java-sdk-cognitoidentity-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cognitosync/1.9.39/376592896df26faac02fdcd124a77ed6e22c2c71/aws-java-sdk-cognitosync-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cognitosync/1.9.39/c6665f5aa95e550e36a5b01ce08bb0385780b174/aws-java-sdk-cognitosync-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-directconnect/1.9.39/5175f960292839a5dd1e4951605fcc26459ba9fc/aws-java-sdk-directconnect-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-directconnect/1.9.39/347a12810effde89290cfd23e9b0527f2be00c4e/aws-java-sdk-directconnect-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudformation/1.9.39/a6f1d6285170565e59754afee6cc033b82348024/aws-java-sdk-cloudformation-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudformation/1.9.39/65892bb886cde0d7fa78d708ecf770563bd50f54/aws-java-sdk-cloudformation-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudfront/1.9.39/1d4540506dfa73cde0fd53cf436abd2ae6270b3e/aws-java-sdk-cloudfront-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudfront/1.9.39/e302486ce37a0231a857aa52dcbd8269d5bd33a0/aws-java-sdk-cloudfront-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-kinesis/1.9.39/58b2f3d5ac5d0ee91ff5be406010d58d73a64eba/aws-java-sdk-kinesis-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-kinesis/1.9.39/aa35ad585baf5fe8e54c2f6b6cf9f53cca091bc4/aws-java-sdk-kinesis-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-opsworks/1.9.39/f6360c3d513e217caf4e92e009e01bd940060a42/aws-java-sdk-opsworks-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-opsworks/1.9.39/a6c5097dea6dec99b306a6a06d8d2638f8b9d34d/aws-java-sdk-opsworks-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ses/1.9.39/b947eae002cd6a172541af5d90f75db0d18bb731/aws-java-sdk-ses-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ses/1.9.39/6c03602b110694edccffc4bb7cdadd7ded01a6ce/aws-java-sdk-ses-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-autoscaling/1.9.39/48d0ba77e03ff7bef818dd516280880822abf436/aws-java-sdk-autoscaling-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-autoscaling/1.9.39/a5df2fe669345c51a2789b23ce71e611421388d/aws-java-sdk-autoscaling-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudsearch/1.9.39/2dbc8ec8d069621dc624d5957faa3592624b124b/aws-java-sdk-cloudsearch-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudsearch/1.9.39/2b11083ddbe71adcce671f43f69ba60d395701a4/aws-java-sdk-cloudsearch-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudwatchmetrics/1.9.39/2b96ef554eed1a686eba85497023785a2f314b66/aws-java-sdk-cloudwatchmetrics-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudwatchmetrics/1.9.39/4620d8d9a707b89bea68d6326d4883393116be8b/aws-java-sdk-cloudwatchmetrics-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-swf-libraries/1.9.39/4953f1eac64a394b85e6c14e97aac9b4fb8ffcd/aws-java-sdk-swf-libraries-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-swf-libraries/1.9.39/2387839eaa5e28991b32fd51ad3cf5fcc4e352e5/aws-java-sdk-swf-libraries-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-codedeploy/1.9.39/273a7372d5044b3cf1b95ff454fe374d2999f66b/aws-java-sdk-codedeploy-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-codedeploy/1.9.39/32490e951debf2c09e56f1a62ba54f2081c4de2/aws-java-sdk-codedeploy-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-kms/1.9.39/6dd5a6c3f3a225a99fa0878233d9d8daaaf66fee/aws-java-sdk-kms-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-kms/1.9.39/9d17706d247631705fae6e8b0f52ebd2f589be57/aws-java-sdk-kms-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-config/1.9.39/af50e7ad1837c50bab8716cbbae08e35a6c35a8/aws-java-sdk-config-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-config/1.9.39/d8dbcf8628bab7a092c34efc9ff6e3373af4ddc6/aws-java-sdk-config-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-lambda/1.9.39/5213b0fc4caa4c26a193fb623fb108f79cff01c5/aws-java-sdk-lambda-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-lambda/1.9.39/4e9e20829f71d21595a613b07b614c28104fa717/aws-java-sdk-lambda-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ecs/1.9.39/b58d028dd343b539d4c94c54fdb19068080d45eb/aws-java-sdk-ecs-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ecs/1.9.39/5c6cd782137fbd1b75ec49a846942d52bbf7fe5/aws-java-sdk-ecs-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudhsm/1.9.39/8ba1e648ee6da39611709650d428b2bd60fd8f17/aws-java-sdk-cloudhsm-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudhsm/1.9.39/b059a9c7670478bb1421c7ab83294be72f6fe086/aws-java-sdk-cloudhsm-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ssm/1.9.39/1b7ad3e54a034dfb438b438c100c7698ad4fb226/aws-java-sdk-ssm-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ssm/1.9.39/620ebbcdab517071c2cd2b55ef578eae30eab57a/aws-java-sdk-ssm-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-workspaces/1.9.39/a0bf5c6bde3753529d2993c2ad1ee11f310df6d8/aws-java-sdk-workspaces-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-workspaces/1.9.39/1da01557898e6b170c0dc504d0028645d1faa7b0/aws-java-sdk-workspaces-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-machinelearning/1.9.39/439f7e35e40bd013e15898f8902f72835ff3f177/aws-java-sdk-machinelearning-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-machinelearning/1.9.39/8ad6ce7d87cfad653aab0e6d8faccb5fc06af8d6/aws-java-sdk-machinelearning-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-directory/1.9.39/f4b2917b67929456faa7e500c8adf66f6af8cb47/aws-java-sdk-directory-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-directory/1.9.39/827f45eb395fa59be48f112601d725ed6f444f8f/aws-java-sdk-directory-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-efs/1.9.39/320911779c14007d201927562f78424471ca1c62/aws-java-sdk-efs-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-efs/1.9.39/30a8b507d132c5ab0335e3481d984a01475e27d1/aws-java-sdk-efs-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.9.39/96647402fb1db0429672e4ea084b4fbfa917f952/aws-java-sdk-core-1.9.39.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.9.39/accf8f81df8778ff8b619757904216c274654289/aws-java-sdk-core-1.9.39-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.4/a9a1fef2faefed639ee0d0fba5b3b8e4eb2ff2d8/httpclient-4.3.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.4/7a14aafed8c5e2c4e360a2c1abd1602efa768b1f/httpclient-4.3.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.3.2/c75edc740a6d8cb1cef6fa82fa594e0bce561916/jackson-databind-2.3.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.3.2/1db5aeeb9d117597942671c6c28d99ef820e5685/jackson-databind-2.3.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/4809f38359edeea9487f747e09aa58ec8d3a54c5/httpcore-4.3.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/61e9f9d11fe3e12ec62f633006e99d75fd7f19c8/commons-codec-1.6-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.3.0/f5e853a20b60758922453d56f9ae1e64af5cb3da/jackson-annotations-2.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.3.0/cc964b08f8d37e3d8465de923b9e6321107a5429/jackson-annotations-2.3.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.3.2/559b70ac8a0d5cad611da4223137a920147201ba/jackson-core-2.3.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.3.2/520cc7be579515c777cb6f33b6e0cf9e391c7435/jackson-core-2.3.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.2/d27c24204c5e507b16fec01006b3d0f1ec42aed4/joda-time-2.8.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.2/65dd2b998571ea61a3cee68c99a1dde729b14a7e/joda-time-2.8.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
