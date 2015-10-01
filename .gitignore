@@ -53,6 +53,7 @@ crashlytics-build.properties
 ### Eclipse template
 *.pydevproject
 .metadata
+gradle
 .gradle
 bin/
 tmp/
