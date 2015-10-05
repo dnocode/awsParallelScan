@@ -1,7 +1,7 @@
 # awsParallelScan
-Simple aws utility for parallel scanning where 
-1 or more  threads producer provide record scanning 
-and pass in chunk to consumer threads.
+Simple aws utility for parallel scanning where
+1 or more threads producer provide records  scanned
+and pass them in a chunk to the consumer threads 
 
 ```java
 
@@ -16,3 +16,7 @@ AmazonScanSystem<Contact> scanSys=new AmazonScanSystem<>(dbclient);
  .scan();
 
 ```
+
+Everything was done very quickly .
+Welcome to any criticism and any help .
+thank you.
