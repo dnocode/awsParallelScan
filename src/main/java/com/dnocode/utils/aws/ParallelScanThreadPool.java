@@ -4,6 +4,8 @@ import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
 import com.amazonaws.services.dynamodbv2.model.AttributeValue;
 import com.amazonaws.services.dynamodbv2.model.ScanRequest;
 import com.amazonaws.services.dynamodbv2.model.ScanResult;
+import org.apache.log4j.Logger;
+
 
 import java.util.List;
 import java.util.Map;
@@ -13,8 +15,10 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedTransferQueue;
 
 
+
 public class ParallelScanThreadPool<T> {
 
+    final static Logger log = Logger.getLogger(ParallelScanThreadPool.class);
     private MapperClass<T> mapper;
     private Map<String, String> names;
     private Map<String, AttributeValue> values;
@@ -48,7 +52,7 @@ public class ParallelScanThreadPool<T> {
         this.projectExpression = projectExpression;
         this.mapper = mapper;
         this.discriminator = discriminator;
-        //  log.info("Scanning " + tableName + " using " + numberOfThreads + " threads " + itemLimit + " items at a time");
+        log.info("Scanning " + tableName + " using " + numberOfThreads + " threads " + itemLimit + " items at a time");
 
         ExecutorService scannerThreadPool = Executors.newFixedThreadPool(numberOfThreads);
         // Divide DynamoDB table into logical segments
@@ -90,9 +94,7 @@ public class ParallelScanThreadPool<T> {
     }
 
 
-    public interface MapperClass<T> {
-        T mapInstructions(Map<String, AttributeValue> item, String threadKey);
-    }
+    public interface MapperClass<T> { T mapInstructions(Map<String, AttributeValue> item, String threadKey);}
 
     // Runnable task for scanning a single segment of a DynamoDB table
     private class ScanSegmentRunnable implements Runnable {

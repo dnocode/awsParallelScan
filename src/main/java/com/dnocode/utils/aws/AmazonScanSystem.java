@@ -11,9 +11,9 @@ public class AmazonScanSystem<T> {
     private  int scannerPageSize;
     private int scannerThreads;
     private AmazonDynamoDBClient dynamoDBClient;
-    protected  AmazonConsumerThreadPool consumerThreadPool;
+    private  AmazonConsumerThreadPool consumerThreadPool;
 
-    protected ParallelScanThreadPool producerScannerThread;
+    private  ParallelScanThreadPool producerScannerThread;
     private final LinkedTransferQueue <T>sharedTranferList=new LinkedTransferQueue();
     public AmazonScanSystem(AmazonDynamoDBClient dbclient){  this.dynamoDBClient=dbclient;}
 
@@ -40,8 +40,10 @@ public class AmazonScanSystem<T> {
              String projectExpression;
              Map<String, AttributeValue> values;
              Map<String, String> names;
-            String monitorkey;
+             String monitorkey;
+
              ParallelScanThreadPool.MapperClass mapper;
+
              public ScannerParametrizer() { }
              public ScannerParametrizer setScanFilter(String scanFilter){this.scanfilter=scanFilter; return this;}
              public ScannerParametrizer setProjectExpression(String projectExpression){this.projectExpression=projectExpression;  return this;}
@@ -49,6 +51,7 @@ public class AmazonScanSystem<T> {
              public ScannerParametrizer setMapper(ParallelScanThreadPool.MapperClass mapper){ this.mapper=mapper;  return this;}
              public ScannerParametrizer setMonitorKey(String monitorKey) { this.monitorkey=monitorKey;  return this;}
              public ScannerParametrizer addListenener(ParallelScanThreadPool.ParallelScanListener listener){ producerScannerThread.addListener(listener);  return this; }
+
              public void scan(){
                  consumerThreadPool.listen();
                  producerScannerThread.parallelScan(scanfilter,projectExpression,values,names,mapper,monitorkey.toString()); }

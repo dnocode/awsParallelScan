@@ -15,7 +15,7 @@ public class AmazonConsumerThreadPool<T> {
     private final LinkedTransferQueue<T> sharedItemsList;
     private final BlockingQueue<T> chunk;
     private final ExecutorService threadPool;
-    private final LinkedBlockingQueue<Runnable> uploaderThreadQueue = new LinkedBlockingQueue<>();
+    private final LinkedBlockingQueue<Runnable> uploaderThreadQueue = new LinkedBlockingQueue();
     private ChunkProcessor[] chunkProcessors;
     /**
      * waiting time before giving the shutdown to threadpool
@@ -85,7 +85,7 @@ public class AmazonConsumerThreadPool<T> {
      */
     protected void submitChunkToProcessors() {
 
-        ArrayList<T> deliveringChunk = new ArrayList<>();
+        ArrayList<T> deliveringChunk = new ArrayList();
         this.chunk.drainTo(deliveringChunk);
 
         if (deliveringChunk.size() > 0) {

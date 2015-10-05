@@ -2,52 +2,54 @@ plugins {id "de.undercouch.download" version "2.0.0"}
 group 'com.dnocode.utils.aws'
 version '1.0'
 apply plugin: 'java'
+apply plugin: 'idea'
 
 repositories { jcenter()}
 
 // In this section you declare the dependencies for your production and test code
 dependencies {
-    compile 'org.slf4j:slf4j-api:1.7.12'
     compile 'joda-time:joda-time:2.8.2'
-    compile  'com.amazonaws:aws-java-sdk-dynamodb:1.10.21'
+    compile  'com.amazonaws:aws-java-sdk-dynamodb:1.10.22'
+    compile 'log4j:log4j:1.2.17'
     testCompile 'junit:junit:4.12'
 }
 
 import de.undercouch.gradle.tasks.download.Download
 
-task startDynamoLocal(type: Download) {
+task dynamoup(type: Download) {
 
-    doFirst { new File(buildDir.path+"/tmp").mkdirs(); }
-
+    def dynamoFolderFile=new File (projectDir.path+"/dynamoLauncher");
+    doFirst { dynamoFolderFile.mkdirs(); }
     src 'http://dynamodb-local.s3-website-us-west-2.amazonaws.com/dynamodb_local_latest.tar.gz'
-    dest new File(buildDir.path+"/tmp")
+    dest dynamoFolderFile
     onlyIfNewer true
 
     doLast {
         copy {
-            from tarTree(resources.gzip(buildDir.path+'/tmp/dynamodb_local_latest.tar.gz'))
-            into new File(buildDir.path+"/tmp")
+            from tarTree(resources.gzip(dynamoFolderFile.path+"/dynamodb_local_latest.tar.gz"))
+            into dynamoFolderFile
         }
 
-        File launchScript=new File(buildDir.path+"/tmp/startDynamo.sh");
+        File launchScript=new File(dynamoFolderFile.path+"/startDynamo.sh");
+
         launchScript.createNewFile();
-        launchScript.write("#!/usr/bin/env bash\njava -Djava.library.path=./DynamoDBLocal_lib -jar "+buildDir.path+"/tmp/DynamoDBLocal.jar -sharedDb -inMemory &")
-        launchScript.setExecutable(true)
+
+        launchScript.write("#!/usr/bin/env bash\n" +
+                "dynamo=\$(ps aux | grep -0  DynamoDBLocal.jar | wc -l);\n"+
+                "if [[ \$dynamo > 1 ]]\n"+
+                "then\n"+
+                "kill \$(ps aux | grep DynamoDBLocal.jar | awk ' \$11 != \"grep\" { print \$2 }')\n"+
+                "fi\n"+
+                "java -Djava.library.path=./DynamoDBLocal_lib -jar "+dynamoFolderFile.path+"/DynamoDBLocal.jar -sharedDb -inMemory  > /dev/null 2>&1 & ")
+
+         launchScript.setExecutable(true)
+
         exec{
-         commandLine   buildDir.path+"/tmp/startDynamo.sh"
+         commandLine   dynamoFolderFile.path+"/startDynamo.sh"
         }
-
-
     }
 }
 
 
-task callCL(type :Exec){
-    commandLine   buildDir.path+"/tmp/startDynamo.sh"
-
-}
-
-
-
-
+test.dependsOn dynamoup
 
